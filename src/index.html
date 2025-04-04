@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -12,7 +15,7 @@
     <header class="container">
         <nav class="flex justify-between items-center my-[2.63rem]">
             <span class="text-[2rem] text-primary font-medium ">Foodies</span>
-            <ul class="hidden sm:flex justify-between items-center gap-8 font-semibold">
+            <ul class="hidden md:flex justify-between items-center gap-8 font-semibold">
                 <li class="relative text-primary">
                     <a  href="#">Home</a>
                     <div class="absolute left-1/2 -translate-x-1/2 mt-1 bg-green-500 rounded-full h-[7px] w-[7px]"></div>
@@ -22,10 +25,32 @@
                 <li><a href="#">Our Company</a></li>
                 <li><a href="#">Pages</a></li>
             </ul>
-            <img class="block sm:hidden" src="/images/Menu.svg" alt="">
+            <img class="block md:hidden" src="/images/Menu.svg" alt="">
         </nav>
     </header>
     <!-- header area ends -->
+
+    <!-- Hero area starts -->
+    <section class="container">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-10">
+            <div class="text-center md:text-left space-y-10">
+                <p class="text-secondary text-[3.1875rem] sm:text-[4.6875rem] font-semibold leading-normal">We're Serious For Food.</p>
+                <p class="text-[0.875rem] sm:text-[1rem] font-normal leading-[1.39475rem] text-secondary">We strive to provide a space where guests can connect with themselves and explore their full potential, offering a safe place.</p>
+                <button class="bg-primary h-[4.25rem] text-white w-full md:w-[12.5rem] cursor-pointer">
+                    Get Started
+                </button>
+            </div>
+            <div class="m-auto">
+                <img class="w-[20.00069rem] h-[29.36375rem] md:w-[29.25rem] md:h-[39.625rem]" src="/images/Place Your Image.jpg" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-10 mt-10 sm:flex-row">
+            <img class="w-[7.72919rem] h-[1.78706rem] sm:w-[9.25213rem] sm:h-[1.85675rem]" src="/images/Group 1.svg" alt="">
+            <img class="w-[7.373rem] h-[1.47963rem] sm:w-[9.25213rem] sm:h-[1.85675rem]" src="/images/Group 2.svg" alt="">
+            <img class="w-[7.44125rem] h-[1.69863rem] sm:w-[9.33969rem] sm:h-[2.13275rem]" src="/images/Group 3.svg" alt="">
+        </div>
+    </section>
+
 </body>
 
 </html>
