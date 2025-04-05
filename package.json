@@ -1,0 +1,23 @@
+{
+  "name": "foodies",
+  "version": "1.0.0",
+  "description": "A fontend project form figma foodies layout",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armaanepiic/Foodies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armaanepiic/Foodies/issues"
+  },
+  "homepage": "https://github.com/armaanepiic/Foodies#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
