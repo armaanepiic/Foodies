@@ -10,7 +10,7 @@
   --color-secondary: #1D1D1F;
 }
 .btn{
-  @apply bg-blue-400 p-4 text-white text-[0.9375rem] cursor-pointer rounded-md shadow-md shadow-current;
+  @apply bg-primary text-white px-6 py-2 rounded-full hover:bg-green-600 transition-all;
 }
 .card{
   @apply bg-[#F0F1EC] p-8 flex flex-col justify-between space-y-4;
